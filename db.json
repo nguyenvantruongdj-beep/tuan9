@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "email": "an@gmail.com",
+      "password": "$2a$10$pDEa13HpLHUEnHXVKrzu4.wsRemAMTMCSW2j96iRhx2EhjKk/v0P2"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị Bình",
+      "email": "binh@gmail.com",
+      "password": "123456"
+    },
+    {
+      "firstName": "Minh",
+      "lastName": "Le",
+      "email": "minh@mail.com",
+      "id": 3
+    },
+    {
+      "firstName": "Minh",
+      "lastName": "Le",
+      "email": "minh@mail.com",
+      "id": 4
+    },
+    {
+      "email": "demo1793000127045@mail.com",
+      "password": "$2a$10$.ooWwa0.lTN5oWyhwpJjyOvZL3DpUKiCzvqfcifZG2FVlvIy9u7Hm",
+      "name": "Demo User",
+      "id": 5
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Dế Mèn Phiêu Lưu Ký",
+      "author": "Tô Hoài",
+      "category": "Văn học",
+      "price": 45000,
+      "image": "https://picsum.photos/seed/book1/300/450",
+      "description": "Dế Mèn Phiêu Lưu Ký của Tô Hoài, một cuốn sách thuộc thể loại văn học được nhiều bạn đọc yêu thích."
+    },
+    {
+      "firstName": "Minh",
+      "lastName": "Le",
+      "email": "minh@mail.com",
+      "id": 2
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 2,
+      "comment": "Hơi khó đọc với mình.",
+      "createdAt": "2026-10-03T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "bookId": 1,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 5,
+      "comment": "Tuyệt vời, mình đọc 2 lần rồi.",
+      "createdAt": "2026-10-02T09:00:00.000Z"
+    },
+    {
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 4,
+      "comment": "Hay và dễ đọc",
+      "createdAt": "2026-10-26T07:45:47.846Z",
+      "id": 3
+    }
+  ]
+}
